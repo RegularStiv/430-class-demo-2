@@ -1,0 +1,25 @@
+{
+  "name": "430-class-demo-2",
+  "version": "1.0.0",
+  "engines":{
+    "node":"16.14.0",
+    "npm":"8.3.1"
+  },
+  "description": "a basic node server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegularStiv/430-class-demo-2.git"
+  },
+  "author": "stephen rumpp",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/RegularStiv/430-class-demo-2/issues"
+  },
+  "homepage": "https://github.com/RegularStiv/430-class-demo-2#readme"
+}
